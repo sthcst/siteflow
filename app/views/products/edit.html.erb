@@ -1,12 +1,14 @@
-<% content_for :title, "Editing product" %>
+<% content_for :title, "Editing Site" %>
 
-<h1>Editing product</h1>
+<div class="products">
+  <h1>Edit Site</h1>
 
-<%= render "form", product: @product %>
+  <div class="form-container">
+    <%= render "form", product: @product %>
+  </div>
 
-<br>
-
-<div>
-  <%= link_to "Show this product", @product %> |
-  <%= link_to "Back to products", products_path %>
+  <div class="form-actions">
+    <%= link_to "View Product", @product, class: "btn btn-primary" %>
+    <%= link_to "Back to Productes", products_path, class: "btn btn-secondary" %>
+  </div>
 </div>
