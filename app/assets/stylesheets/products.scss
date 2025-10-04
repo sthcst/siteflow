@@ -161,8 +161,8 @@ nav {
   // Products grid layout
   .products-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); // 3 equal columns
-    grid-template-rows: repeat(3, auto); // 3 rows, auto height
+    grid-template-columns: repeat(2, 1fr); // 2 equal columns
+    grid-template-rows: repeat(2, auto); // 2 rows, auto height
     gap: 2rem;
     margin-bottom: 2rem;
     max-width: 1200px; // Constrain total width
